@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B29AFE51E3B751600514EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29AFE41E3B751600514EEB /* ViewController.swift */; };
+		4BC2FDC51E3B1DB100D9A36A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2FDC41E3B1DB100D9A36A /* AppDelegate.swift */; };
+		4BC2FDCA1E3B1DB100D9A36A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2FDC81E3B1DB100D9A36A /* Main.storyboard */; };
+		4BC2FDCC1E3B1DB100D9A36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2FDCB1E3B1DB100D9A36A /* Assets.xcassets */; };
+		4BC2FDCF1E3B1DB100D9A36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC2FDCD1E3B1DB100D9A36A /* LaunchScreen.storyboard */; };
+		4BC2FDDA1E3B1DB100D9A36A /* Credentialing_BGCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2FDD91E3B1DB100D9A36A /* Credentialing_BGCTests.swift */; };
+		4BC2FDE51E3B1DB100D9A36A /* Credentialing_BGCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2FDE41E3B1DB100D9A36A /* Credentialing_BGCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BC2FDD61E3B1DB100D9A36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC2FDB91E3B1DB000D9A36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC2FDC01E3B1DB000D9A36A;
+			remoteInfo = "Credentialing BGC";
+		};
+		4BC2FDE11E3B1DB100D9A36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC2FDB91E3B1DB000D9A36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC2FDC01E3B1DB000D9A36A;
+			remoteInfo = "Credentialing BGC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B29AFE41E3B751600514EEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BC2FDC11E3B1DB100D9A36A /* Credentialing BGC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credentialing BGC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC2FDC41E3B1DB100D9A36A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC2FDC91E3B1DB100D9A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC2FDCB1E3B1DB100D9A36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC2FDCE1E3B1DB100D9A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC2FDD01E3B1DB100D9A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC2FDD51E3B1DB100D9A36A /* Credentialing BGCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credentialing BGCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC2FDD91E3B1DB100D9A36A /* Credentialing_BGCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentialing_BGCTests.swift; sourceTree = "<group>"; };
+		4BC2FDDB1E3B1DB100D9A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC2FDE01E3B1DB100D9A36A /* Credentialing BGCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credentialing BGCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC2FDE41E3B1DB100D9A36A /* Credentialing_BGCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentialing_BGCUITests.swift; sourceTree = "<group>"; };
+		4BC2FDE61E3B1DB100D9A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC2FDBE1E3B1DB000D9A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDD21E3B1DB100D9A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDDD1E3B1DB100D9A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BC2FDB81E3B1DB000D9A36A = {
+			isa = PBXGroup;
+			children = (
+				4BC2FDC31E3B1DB100D9A36A /* Credentialing BGC */,
+				4BC2FDD81E3B1DB100D9A36A /* Credentialing BGCTests */,
+				4BC2FDE31E3B1DB100D9A36A /* Credentialing BGCUITests */,
+				4BC2FDC21E3B1DB100D9A36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC2FDC21E3B1DB100D9A36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2FDC11E3B1DB100D9A36A /* Credentialing BGC.app */,
+				4BC2FDD51E3B1DB100D9A36A /* Credentialing BGCTests.xctest */,
+				4BC2FDE01E3B1DB100D9A36A /* Credentialing BGCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC2FDC31E3B1DB100D9A36A /* Credentialing BGC */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2FDC41E3B1DB100D9A36A /* AppDelegate.swift */,
+				4B29AFE41E3B751600514EEB /* ViewController.swift */,
+				4BC2FDC81E3B1DB100D9A36A /* Main.storyboard */,
+				4BC2FDCB1E3B1DB100D9A36A /* Assets.xcassets */,
+				4BC2FDCD1E3B1DB100D9A36A /* LaunchScreen.storyboard */,
+				4BC2FDD01E3B1DB100D9A36A /* Info.plist */,
+			);
+			path = "Credentialing BGC";
+			sourceTree = "<group>";
+		};
+		4BC2FDD81E3B1DB100D9A36A /* Credentialing BGCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2FDD91E3B1DB100D9A36A /* Credentialing_BGCTests.swift */,
+				4BC2FDDB1E3B1DB100D9A36A /* Info.plist */,
+			);
+			path = "Credentialing BGCTests";
+			sourceTree = "<group>";
+		};
+		4BC2FDE31E3B1DB100D9A36A /* Credentialing BGCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2FDE41E3B1DB100D9A36A /* Credentialing_BGCUITests.swift */,
+				4BC2FDE61E3B1DB100D9A36A /* Info.plist */,
+			);
+			path = "Credentialing BGCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC2FDC01E3B1DB000D9A36A /* Credentialing BGC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC2FDE91E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGC" */;
+			buildPhases = (
+				4BC2FDBD1E3B1DB000D9A36A /* Sources */,
+				4BC2FDBE1E3B1DB000D9A36A /* Frameworks */,
+				4BC2FDBF1E3B1DB000D9A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credentialing BGC";
+			productName = "Credentialing BGC";
+			productReference = 4BC2FDC11E3B1DB100D9A36A /* Credentialing BGC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BC2FDD41E3B1DB100D9A36A /* Credentialing BGCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC2FDEC1E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGCTests" */;
+			buildPhases = (
+				4BC2FDD11E3B1DB100D9A36A /* Sources */,
+				4BC2FDD21E3B1DB100D9A36A /* Frameworks */,
+				4BC2FDD31E3B1DB100D9A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC2FDD71E3B1DB100D9A36A /* PBXTargetDependency */,
+			);
+			name = "Credentialing BGCTests";
+			productName = "Credentialing BGCTests";
+			productReference = 4BC2FDD51E3B1DB100D9A36A /* Credentialing BGCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BC2FDDF1E3B1DB100D9A36A /* Credentialing BGCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC2FDEF1E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGCUITests" */;
+			buildPhases = (
+				4BC2FDDC1E3B1DB100D9A36A /* Sources */,
+				4BC2FDDD1E3B1DB100D9A36A /* Frameworks */,
+				4BC2FDDE1E3B1DB100D9A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC2FDE21E3B1DB100D9A36A /* PBXTargetDependency */,
+			);
+			name = "Credentialing BGCUITests";
+			productName = "Credentialing BGCUITests";
+			productReference = 4BC2FDE01E3B1DB100D9A36A /* Credentialing BGCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC2FDB91E3B1DB000D9A36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kashif;
+				TargetAttributes = {
+					4BC2FDC01E3B1DB000D9A36A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4BC2FDD41E3B1DB100D9A36A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BC2FDC01E3B1DB000D9A36A;
+					};
+					4BC2FDDF1E3B1DB100D9A36A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BC2FDC01E3B1DB000D9A36A;
+					};
+				};
+			};
+			buildConfigurationList = 4BC2FDBC1E3B1DB000D9A36A /* Build configuration list for PBXProject "Credentialing BGC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC2FDB81E3B1DB000D9A36A;
+			productRefGroup = 4BC2FDC21E3B1DB100D9A36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC2FDC01E3B1DB000D9A36A /* Credentialing BGC */,
+				4BC2FDD41E3B1DB100D9A36A /* Credentialing BGCTests */,
+				4BC2FDDF1E3B1DB100D9A36A /* Credentialing BGCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC2FDBF1E3B1DB000D9A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC2FDCF1E3B1DB100D9A36A /* LaunchScreen.storyboard in Resources */,
+				4BC2FDCC1E3B1DB100D9A36A /* Assets.xcassets in Resources */,
+				4BC2FDCA1E3B1DB100D9A36A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDD31E3B1DB100D9A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDDE1E3B1DB100D9A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC2FDBD1E3B1DB000D9A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC2FDC51E3B1DB100D9A36A /* AppDelegate.swift in Sources */,
+				4B29AFE51E3B751600514EEB /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDD11E3B1DB100D9A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC2FDDA1E3B1DB100D9A36A /* Credentialing_BGCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC2FDDC1E3B1DB100D9A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC2FDE51E3B1DB100D9A36A /* Credentialing_BGCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC2FDD71E3B1DB100D9A36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC2FDC01E3B1DB000D9A36A /* Credentialing BGC */;
+			targetProxy = 4BC2FDD61E3B1DB100D9A36A /* PBXContainerItemProxy */;
+		};
+		4BC2FDE21E3B1DB100D9A36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC2FDC01E3B1DB000D9A36A /* Credentialing BGC */;
+			targetProxy = 4BC2FDE11E3B1DB100D9A36A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BC2FDC81E3B1DB100D9A36A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC2FDC91E3B1DB100D9A36A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC2FDCD1E3B1DB100D9A36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC2FDCE1E3B1DB100D9A36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC2FDE71E3B1DB100D9A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC2FDE81E3B1DB100D9A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC2FDEA1E3B1DB100D9A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Credentialing BGC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BC2FDEB1E3B1DB100D9A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Credentialing BGC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4BC2FDED1E3B1DB100D9A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Credentialing BGCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credentialing BGC.app/Credentialing BGC";
+			};
+			name = Debug;
+		};
+		4BC2FDEE1E3B1DB100D9A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Credentialing BGCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credentialing BGC.app/Credentialing BGC";
+			};
+			name = Release;
+		};
+		4BC2FDF01E3B1DB100D9A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Credentialing BGCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Credentialing BGC";
+			};
+			name = Debug;
+		};
+		4BC2FDF11E3B1DB100D9A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Credentialing BGCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Credentialing-BGCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Credentialing BGC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC2FDBC1E3B1DB000D9A36A /* Build configuration list for PBXProject "Credentialing BGC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC2FDE71E3B1DB100D9A36A /* Debug */,
+				4BC2FDE81E3B1DB100D9A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC2FDE91E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC2FDEA1E3B1DB100D9A36A /* Debug */,
+				4BC2FDEB1E3B1DB100D9A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC2FDEC1E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC2FDED1E3B1DB100D9A36A /* Debug */,
+				4BC2FDEE1E3B1DB100D9A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC2FDEF1E3B1DB100D9A36A /* Build configuration list for PBXNativeTarget "Credentialing BGCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC2FDF01E3B1DB100D9A36A /* Debug */,
+				4BC2FDF11E3B1DB100D9A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BC2FDB91E3B1DB000D9A36A /* Project object */;
+}
